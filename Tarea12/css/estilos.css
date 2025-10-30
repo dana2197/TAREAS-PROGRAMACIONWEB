@@ -1,0 +1,101 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 153), rgb(252, 156, 243));
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
+#encabezado{
+    border: 0.2em solid rgb(159, 117, 255);
+}
+
+#encabezado h1{
+    position: relative;
+    left: 20em;
+    bottom: 5em;
+}
+
+.contenedor_logo{
+    width: 15%;
+    height: 20em;
+    /*border: 0.5em dashed darkmagenta;
+    border-radius: 50%;*/
+}
+
+.contenedor_logo img{
+    width: 100%;
+    height: 100%;
+    /*min-width,    max-width*/
+    /*min-height,   min-height*/
+    object-fit: contain;
+    /*object-position: (top, left, right, bottom)*/
+    border: dashed rgb(0, 8, 255);
+    border-radius: 50%;
+}
+
+.elementos_posicionados{
+    border: 0.2em solid rgb(0, 119, 255);
+    padding: 1em;
+}
+
+.contenedor_imagen{
+    width: 15em;
+    height: 15em;
+    border: 0.4em outset rgb(79, 0, 139);
+}
+
+.contenedor_imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.imagen_1{
+    position: relative;
+    top: 0em;
+    left: 0em;
+    /*Top y left tienen prioridad*/
+}
+
+.imagen_2{
+    position: relative;
+    top: 0em;
+    left: 0em;
+}
+
+.imagen_3{
+    position: relative;
+    z-index: 10;
+}
+
+.imagen_1 img{
+    filter: blur(1em);
+}
+
+.imagen_2 img{
+    filter: contrast(1em);
+}
+
+.imagen_3 img{
+    filter: grayscale(50%);
+}
+
+.imagen_4{
+    filter: sepia(30%);
+}
+
+/*Propiedad: filter
+Permite la manipulacion de imagenes, ofreciendo una gama de efectos como:
+blur(): Aplica desenfoque
+brightness(): Ajusta el brillo de un elemento
+contrast(): Modifica el contraste
+grayscale(): Convierte al elemento en escala de grises
+invert(): Invierte los colores del elemento
+sepia(): Aplica un efecto de tono sepia al elemento*/
