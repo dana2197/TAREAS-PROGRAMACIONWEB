@@ -1,0 +1,70 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(152, 7, 255);
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 0, 157, 0.361);
+}
+
+/*Orden para los estilos de los estados en los enlaces (LVFHA)*/
+
+a:link{
+    color: rgb(0, 125, 203);
+}
+
+a:visited{
+    color: blue;
+}
+
+a:focus{
+    color: rgb(170, 0, 34);
+    background-color: black;
+    border: 0.2rem solid rgb(0, 255, 0);
+}
+
+a:hover{
+    color: rgb(1, 253, 249);
+    background-color: black;
+    border: 0.2rem solid silver;
+}
+
+a:active{
+    color: rgb(190, 1, 1);
+    background-color: black;
+    text-decoration: dotted;
+}
+
+
+#encabezado{
+    border: 2px solid silver;
+    background-color: black;
+    font-size: 2rem; /*20 px*/
+}
+
+#encabezado h1{
+    font-size: 1.5rem; /*15 px*/
+    text-align: center;
+}
+
+.estados_enlaces h2{
+    text-align: center;
+    font-size: 3rem;
+    border: 0.2em dashed rgb(148, 2, 145);
+}
+
+.estados_enlaces ul{
+    border: 0.2em solid rgb(248, 4, 118);
+}
+
+/*Estilos de Listas*/
+.estados_enlaces ul li{
+    border: 0.2em solid rgba(0, 140, 255, 0.667);
+    /*List-style-type(disc, decimal, circle, lower-roman, lower-alha, upper-alha, none)*/
+    list-style-type: none;
+    /*List-style-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.es%2Ficono-gratis%2Fhtml-5_174854&psig=AOvVaw0SIj4IKiC3uspr4kCUD05j&ust=1761244209377000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICjy424uJADFQAAAAAdAAAAABAE)*/
+    list-style-image: url()
+}
